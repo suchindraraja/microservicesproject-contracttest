@@ -21,7 +21,7 @@ public class PostProviderPactTest
 {
 	private static final int WIREMOCK_PORT=9090;  
 	
-	//Start provier microservice under contract testing
+	//Start provider microservice under contract testing
 	@BeforeClass  
 	public static void setup() 
 	{ 

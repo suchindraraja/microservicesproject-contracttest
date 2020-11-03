@@ -45,7 +45,7 @@ public class Consumerpostpact
 	
 	//Verify correctness of created contract in b/w "consumer_D" and "postprovider" service
 	@Test
-	@PactVerification()
+	@PactVerification
 	public void testconsumercontract() 
 	{
 		String jb="{\"name\": \"kalam\"}";
