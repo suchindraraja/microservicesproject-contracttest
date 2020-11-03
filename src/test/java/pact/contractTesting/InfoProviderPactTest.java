@@ -35,7 +35,7 @@ public class InfoProviderPactTest
 	            .withStatus(200)  
 	            .withHeader("Content-Type", "application/json")  
 	            .withBody("{\"id\": \"11\", \"name\": \"kalam\", \"age\": \"78\"}")  
-	            ));   
+	            ));
 	}
 	
 	//Set that microservice as target
